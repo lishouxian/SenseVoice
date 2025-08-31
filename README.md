@@ -112,8 +112,16 @@ The SenseVoice-Small model deploys a non-autoregressive end-to-end architecture,
 
 # Requirements
 
+**Python版本要求**: Python 3.12
+
+安装 uv (如果还没有安装):
 ```shell
-pip install -r requirements.txt
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+安装项目依赖:
+```shell
+uv sync
 ```
 
 <a name="Usage"></a>

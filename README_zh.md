@@ -95,8 +95,16 @@ SenseVoice-small 模型采用非自回归端到端架构，推理延迟极低。
 
 # 安装依赖环境 🐍
 
+**Python版本要求**: Python 3.12
+
+安装 uv (如果还没有安装):
 ```shell
-pip install -r requirements.txt
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+安装项目依赖:
+```shell
+uv sync
 ```
 
 <a name="用法教程"></a>

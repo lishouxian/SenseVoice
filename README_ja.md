@@ -88,8 +88,16 @@ SenseVoice-smallモデルは非自己回帰エンドツーエンドアーキテ�
 <a name="环境安装"></a>
 # 環境インストール 🐍
 
+**Pythonバージョン要件**: Python 3.12
+
+uvをインストール (まだインストールしていない場合):
 ```shell
-pip install -r requirements.txt
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+プロジェクトの依存関係をインストール:
+```shell
+uv sync
 ```
 
 <a name="用法教程"></a>

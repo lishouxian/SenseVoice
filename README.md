@@ -1,14 +1,11 @@
-## 新增
+## ✨ 新增功能
+
 改用 uv 来管理项目
 
+雷哥增加了一个 **Python API 文件**: `openai_whisper_compatible_api.py`
+可以用于 Spokenly 的 API 调用
 
-## ✨ 新增功能
-🚀 来自雷哥的补充
-我增加了一个 **Python API 文件**: `openai_whisper_compatible_api.py`
 
-🎯 **用途**: 可以用于 Spokenly 的 API 调用
-
-💡 **体验**: 非常好用！
 
 ---
 
